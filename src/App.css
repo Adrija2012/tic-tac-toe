@@ -1,38 +1,36 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+}
+h1{
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
   text-align: center;
+  margin-top: 90px
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#alignments{
+  width: fit-content;
+  margin:auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background-color:rgb(149, 250, 194);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+#btn{
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: linear-gradient(white, rgb(192, 164, 240), rgb(150, 78, 244));
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#winner{
+  background-color:rgb(192, 164, 240)
 }

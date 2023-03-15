@@ -1,0 +1,30 @@
+.anotherButton{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 50px;
+    width: 150px;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(white, rgb(192, 164, 240), rgb(150, 78, 244));
+}
+.Xbutton{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 50px;
+    width: 150px;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(darkgreen, green, lightgreen);
+}
+.Obutton{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 50px;
+    width: 150px;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(rgb(169, 10, 10),red,rgb(255, 121, 121));
+}
